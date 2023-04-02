@@ -1,6 +1,6 @@
 import pandas as pa
 import numpy as np
-data_train= pa.read_csv(r'path\to\train_filled data.csv')
+data_train= pa.read_csv(r'train_filled data.csv')
 
 #Adding new feature
 data_train.insert(8, 'Total_Income',(data_train['ApplicantIncome']+data_train['CoapplicantIncome']))
